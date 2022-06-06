@@ -1,0 +1,28 @@
+{
+  "name": "api-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonxoliveira/api-node.git"
+  },
+  "author": "Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andersonxoliveira/api-node/issues"
+  },
+  "homepage": "https://github.com/andersonxoliveira/api-node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  }
+}
